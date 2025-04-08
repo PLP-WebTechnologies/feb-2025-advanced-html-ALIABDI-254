@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced html</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my page</h1>
+      <nav>
+        <ol type="i">
+          <li><a href="#image">Image</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#form">Form</a></li>
+        </ol>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <section id="image">
+        <img src="https://www.pexels.com/photo/1957-chevrolet-bel-air-for-sale-picture-1-of-6-15825383/" alt="A beautiful blue vintage vehycle" width="90%" height="80%">
+      </section id="contacts">
+        <table>
+          <caption><u>Contacts List</u></caption>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>Mobile</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ali Abdi</td>
+              <td>wgt765</td>
+              <td>0**********</td>
+              <td>aliabdi_254@yahoo.com</td>
+            </tr>
+            <tr>
+              <td>John Doe</td>
+              <td>0000</td>
+              <td>02*********</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Jane Doe</td>
+              <td>-----</td>
+              <td>03*********</td>
+              <td>jane@example.com</td>
+            </tr>
+            <tr>
+              <td>Doe</td>
+              <td>00--</td>
+              <td>023********</td>
+              <td>doe@example.com</td>
+            </tr>
+            <tr>
+              <td>Jane John</td>
+              <td>--00</td>
+              <td>032*******</td>
+              <td>janejohn@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      <section id="form">
+        <caption><u>Form</u></caption>
+        <form>
+          <label for="name">Name<input type="text" id="name" name="name" required></label>
+          <br>
+          <label for="email">Email<input type="email" id="email" name="email" required></label>
+          <br>
+          <label for="password">Password<input type="password" id="password" name="password" required></label>
+          <br>
+          <label for="date">Date<input type="date" id="date" name="date" required></label>
+          <br>
+          <caption>Gender</caption>
+          <label for="male"><input type="radio" id="male" name="gender">Male</label>
+          <label for="female"><input type="radio" id="female" name="gender">Female</label>
+          <br>
+          <label for="country">Country</label>
+          <select name="cars" id="cars" required>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tz">Tanzania</option>
+          </select>
+          <br>
+          <label for="checkbox"><input type="checkbox" id="checkbox" name="checkbox" required>Accept the terms and conditions</label>
+          <br>
+          <input type="submit" value="submit">
+        </form>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <p>&copy; 2025 Advanced html. All rights reserved.
+    </footer>
+  </body>
+</html>
